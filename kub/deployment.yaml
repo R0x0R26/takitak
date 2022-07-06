@@ -16,10 +16,9 @@ spec:
     spec:
       containers:
       - image: gcr.io/arctic-pad-352111/nodeapp:v1
-        imagePullPolicy: IfNotPresent
         name: nodeapp
         ports:
-        - containerPort: 80
+        - containerPort: 3000
           protocol: TCP 
 
 ---
